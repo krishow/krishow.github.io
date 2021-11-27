@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出错啦！</title>
+    <style type="text/css">
+
+        html,body {
+            vertical-align: middle;
+            padding: 0;
+            margin: 0;
+        }
+
+        div.center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -25% 0 0 -320px;
+            width: 640px;
+            min-height: 427px;
+            padding: 0px;
+        }
+
+        div.errmsg {
+            text-align: left;
+            width: 640px;
+            line-height: 150%;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .center {
+            display: none;
+        }
+
+        .h5-container {
+            display: none;
+        }
+        @media screen and (max-width: 500px) {
+            #biliMainHeader, #internationalHeader, .error-container {
+                display: none;
+            }
+
+            .h5-container {
+                display: block;
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .h5__img {
+                display: block;
+                width: 300px;
+            }
+
+            .h5__desc {
+                color: #a0a0a0;
+                text-align: center;
+            }
+        }
+    </style>
+    
+    <link href="//static.hdslb.com/error/dist/error.css" rel="stylesheet">
+    <script type="text/javascript">
+        var options = {
+            type: 'defaultError'
+        }
+
+        window.spmReportData = {};
+        window.reportConfig = {
+            sample: 1,
+            msgObjects: "spmReportData",
+        };
+    </script>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-panel server-error">
+            <img src="//static.hdslb.com/error/very_sorry.png">
+            <div style="text-align: center; padding: 0 0 40px 0;">
+              <a class="rollback-btn" style="padding: 0 20px; float: none;">返回上一页</a>
+            </div>
+        </div>
+        <div class="error-split">  
+        </div>
+        <div class="error-manga">
+            <img class="h5__img" src="/images/1.jpg" alt="parse failed">
+            <img class="h5__img" src="/images/2.jpg" alt="parse failed">
+            <img class="h5__img" src="/images/3.jpg" alt="parse failed">
+            <img class="h5__img" src="/images/4.jpg" alt="parse failed">
+            <h4>本漫画出自@笛子Ocarina</h4>
+        </div>
+    </div>
+</body>
+</html>

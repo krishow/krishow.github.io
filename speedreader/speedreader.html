@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<title>速度阅读器</title>
+		<meta charset="utf-8" />
+		<link href="speedreader.css" type="text/css" rel="stylesheet" />
+		<script src="speedreader.js" type="text/javascript"></script>
+	</head> 
+	<body> 
+		<h1>速度阅读器</h1>
+		<div id="display"></div>
+		<div id="inline">
+			<fieldset>
+				<legend>控制按钮:</legend>
+				<button id="start">开始</button>
+				<button disabled="disabled" id="stop">暂停</button>
+			</fieldset>
+
+			<fieldset>
+				<legend>速度:</legend>
+				<select name="speed" id="speed">
+					<option value="500">慢</option>
+					<option value="200">较慢</option>
+					<option selected="selected" value="171">中等</option>
+					<option value="150">较快</option>
+					<option value="133">快</option>
+					<option value="120">很快</option>
+				</select>
+			</fieldset>
+			
+			<fieldset>
+				<legend>大小:</legend>
+				<input type="radio" name="cc" value="36pt" checked="checked" id="medium" /> 中
+				<input type="radio" name="cc" value="48pt" id="big" /> 大
+				<input type="radio" name="cc" value="60pt" id="bigger" /> 很大
+			</fieldset>
+		</div>
+
+		<div>
+			<fieldset id="input">
+				<legend>请输入一段文字（PS:如果是中文，需要每个字用空格隔开）</legend>
+				<textarea rows="10" cols="80" id="inputText"></textarea>
+			</fieldset>
+		</div>
+	</body> 
+</html>
