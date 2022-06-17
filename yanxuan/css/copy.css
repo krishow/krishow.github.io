@@ -1,0 +1,193 @@
+/* 居家生活模块开始 */
+
+.life {
+    width: 1090px;
+    height: 820px;
+    margin: 30px auto 0;
+}
+
+.life .headerTitle {
+    height: 48px;
+}
+
+.life .title {
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.life .headerTitle .moreNewProduct {
+    float: right;
+    line-height: 1;
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-top: 14px;
+}
+
+.life .headerTitle a:hover {
+    color: #cc9756;
+}
+
+.banner-life {
+    width: 1090px;
+    height: 310px;
+    background: url(../img/life.webp) no-repeat;
+}
+
+
+/* 居家生活产品 */
+
+.life .itemList {
+    width: 1100px;
+}
+
+.life .itemList ul li {
+    float: left;
+}
+
+.itemList ul li a {
+    display: inline-block;
+    width: 265px!important;
+    height: 100%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.life .productItem h4 {
+    color: #333;
+    font-size: 14px;
+    width: 168px;
+    margin: 0 auto;
+    word-break: normal;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.life .productItem p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.life .productItem .retailPrice {
+    color: #d4282d;
+    font-size: 13px;
+}
+
+.life .productItem .counterPrice {
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.life .itemList ul li a:hover {
+    box-shadow: 1px 1px 8px rgb(0, 0, 0, .2);
+    background-color: #f4f0ea;
+}
+
+
+/* 居家生活产品结束 */
+
+
+/* 居家生活模块结束 */
+
+
+/* 服饰鞋包模块开始 */
+
+.shoe-bag {
+    width: 1090px;
+    height: 820px;
+    margin: 30px auto 0;
+}
+
+.shoe-bag .headerTitle {
+    height: 48px;
+}
+
+.shoe-bag .title {
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.shoe-bag .headerTitle .moreNewProduct {
+    float: right;
+    line-height: 1;
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-top: 14px;
+}
+
+.shoe-bag .headerTitle a:hover {
+    color: #cc9756;
+}
+
+
+/* .shoe-bag .banner-shoe-bag {
+    width: 1090px;
+    height: 310px;
+    background: url(../img/shoe-bag.webp) no-repeat;
+} */
+
+
+/* 服饰鞋包产品 */
+
+.shoe-bag .itemList {
+    width: 1100px;
+}
+
+.shoe-bag .itemList ul li {
+    float: left;
+}
+
+.shoe-bag .itemList ul li a {
+    display: inline-block;
+    width: 265px!important;
+    height: 100%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.shoe-bag .productItem h4 {
+    color: #333;
+    font-size: 14px;
+    width: 168px;
+    margin: 0 auto;
+    word-break: normal;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.shoe-bag .productItem p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.shoe-bag .productItem .retailPrice {
+    color: #d4282d;
+    font-size: 13px;
+}
+
+.shoe-bag .productItem .counterPrice {
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.shoe-bag .itemList ul li a:hover {
+    box-shadow: 1px 1px 8px rgb(0, 0, 0, .2);
+    background-color: #f4f0ea;
+}
+
+
+/* 服饰鞋包产品结束 */
+
+
+/* 服饰鞋包模块结束 */

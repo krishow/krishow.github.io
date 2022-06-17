@@ -1,0 +1,91 @@
+.indexSideBar {
+    position: sticky;
+    top: 62px!important;
+    float: left;
+    width: 110px;
+    border: 1px solid #E2DED6;
+    left: 112px;
+    margin-left: -680px;
+    z-index: 98;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+}
+
+.indexSideBar .firstItem::before {
+    content: '';
+    display: block;
+    width: 8px;
+    border-bottom: 2px solid #BB3343;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    z-index: 1;
+}
+
+.indexSideBar .firstItem::after {
+    content: '';
+    display: block;
+    width: 8px;
+    border-bottom: 2px solid #BB3343;
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    z-index: 1;
+}
+
+.indexSideBar .firstItem {
+    background: url(../img/hot-bg.webp) bottom no-repeat;
+    font-size: 16px;
+    color: #BB3343;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-weight: 700;
+}
+
+.indexSideBar .item {
+    position: relative;
+    width: 108px;
+    height: 36px;
+    padding: 1px 11px 0;
+    text-align: left;
+}
+
+.indexSideBar .item:after {
+    content: '';
+    display: block;
+    width: 88px;
+    border-bottom: 1px solid #E2DED6;
+    position: absolute;
+    bottom: -1px;
+    left: 11px;
+    z-index: 1;
+}
+
+.indexSideBar .item .sideIcon {
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.indexSideBar .item .name {
+    position: absolute;
+    right: 46px;
+    top: 5px;
+    color: #333;
+    vertical-align: middle;
+    line-height: 14px;
+    font-size: 12px;
+    padding-left: 36px;
+}
+
+.indexSideBar .item:nth-child(2) .name {
+    color: #BB3343;
+    font-weight: bold;
+}
