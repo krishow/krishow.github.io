@@ -684,13 +684,17 @@ input[id=pic5]:checked~.swiper {
     padding: 20px 0;
 }
 
-.site_category .category_list .title {
+.site_category .category_list li.title {
     position: relative;
     display: block;
     color: #fff;
     padding-left: 30px;
     height: 42px;
     line-height: 42px;
+}
+
+.site_category .category_list .title a {
+    color: #fff;
 }
 
 .site_category .category_list .title:hover {
@@ -713,7 +717,6 @@ input[id=pic5]:checked~.swiper {
 .site_category .category_list .children {
     position: absolute;
     left: 234px;
-    top: 0;
     z-index: 4;
     height: 458px;
     border: 0px solid #e0e0e0;
@@ -721,6 +724,50 @@ input[id=pic5]:checked~.swiper {
     background: #fff;
     box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
     display: none;
+}
+
+.site_category .category_list .children a {
+    color: #333;
+}
+
+.site_category .category_list .children1 {
+    top: -20px;
+}
+
+.site_category .category_list .children2 {
+    top: -62px;
+}
+
+.site_category .category_list .children3 {
+    top: -104px;
+}
+
+.site_category .category_list .children4 {
+    top: -146px;
+}
+
+.site_category .category_list .children5 {
+    top: -188px;
+}
+
+.site_category .category_list .children6 {
+    top: -230px;
+}
+
+.site_category .category_list .children7 {
+    top: -272px;
+}
+
+.site_category .category_list .children8 {
+    top: -314px;
+}
+
+.site_category .category_list .children9 {
+    top: -356px;
+}
+
+.site_category .category_list .children10 {
+    top: -398px;
 }
 
 .category_list .children .children_list {
@@ -770,61 +817,61 @@ input[id=pic5]:checked~.swiper {
 
 /* 鼠标移动到列表标题，显示子级 */
 
-.site_category .category_list .title1:hover~.children1 {
+.site_category .category_list .title1:hover .children1 {
     width: 992px;
     display: block;
     border-width: 1px;
 }
 
-.site_category .category_list .title2:hover~.children2 {
+.site_category .category_list .title2:hover .children2 {
     display: block;
     width: 992px;
     border-width: 1px;
 }
 
-.site_category .category_list .title3:hover~.children3 {
+.site_category .category_list .title3:hover .children3 {
     display: block;
     width: 992px;
     border-width: 1px;
 }
 
-.site_category .category_list .title4:hover~.children4 {
+.site_category .category_list .title4:hover .children4 {
     display: block;
     width: 795px;
     border-width: 1px;
 }
 
-.site_category .category_list .title5:hover~.children5 {
+.site_category .category_list .title5:hover .children5 {
     display: block;
     width: 992px;
     border-width: 1px;
 }
 
-.site_category .category_list .title6:hover~.children6 {
+.site_category .category_list .title6:hover .children6 {
     display: block;
     width: 992px;
     border-width: 1px;
 }
 
-.site_category .category_list .title7:hover~.children7 {
+.site_category .category_list .title7:hover .children7 {
     display: block;
     width: 795px;
     border-width: 1px;
 }
 
-.site_category .category_list .title8:hover~.children8 {
+.site_category .category_list .title8:hover .children8 {
     display: block;
     width: 530px;
     border-width: 1px;
 }
 
-.site_category .category_list .title9:hover~.children9 {
+.site_category .category_list .title9:hover .children9 {
     display: block;
     width: 795px;
     border-width: 1px;
 }
 
-.site_category .category_list .title10:hover~.children10 {
+.site_category .category_list .title10:hover .children10 {
     display: block;
     width: 795px;
     border-width: 1px;
@@ -1299,7 +1346,7 @@ input[id=pic5]:checked~.swiper {
 .home_video_box .video_list .video_item .play {
     position: absolute;
     left: 20px;
-    bottom: 115px;
+    bottom: 12px;
     width: 32px;
     height: 20px;
     border: 2px solid #fff;
@@ -1317,7 +1364,12 @@ input[id=pic5]:checked~.swiper {
     border-radius: 3px;
 }
 
-.home_video_box .video_list .video_item .img_video:hover+.play {
+.home_video_box .video_list .video_item .img_video:hover .play {
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+
+.home_video_box .video_list .video_item .img_video .play:hover {
     background-color: #ff6700;
     border-color: #ff6700;
 }
