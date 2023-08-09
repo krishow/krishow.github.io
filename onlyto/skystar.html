@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/skystar.css">
   </head>
   <body>
-    <video id="videofilm" poster="img/skystar2.jpg" autoplay loop>
+    <video id="videofilm" poster="img/skystar2.jpg" autoplay muted loop>
       <source src="video/skystar.mp4" type="video/mp4">
     </video>
     <div class="textone">
@@ -34,6 +34,11 @@
     
     <div class="container"></div>
     <script src="js/skystar.js"></script>
+    <script>
+      window.onload = () => {
+        document.querySelector('video').muted = false;
+      }
+    </script>
     
   </body>
 </html>
